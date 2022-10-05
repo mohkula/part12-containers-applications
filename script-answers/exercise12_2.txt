@@ -1,0 +1,34 @@
+Script started on 2022-10-05 13:55:05+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[1m[7m%[27m[1m[0m                                                                                ]2;mahi@lx9-fuxi269:~/fullstack/osa12/part12-containers-applications]1;..-applications[0m[27m[24m[J[01;32m➜  [36mpart12-containers-applications[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdocker run -it ubuntu bash[27m[26D[27md[27mo[27mc[27mk[27me[27mr[27m [27mr[27mu[27mn[27m [27m-[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[27m [27mb[27ma[27ms[27mh[1C[?1l>[?2004l
+]2;docker run -it ubuntu bash]1;dockerdocker: Cannot connect to the Docker daemon at unix:///home/mahi/.docker/desktop/docker.sock. Is the docker daemon running?.
+See 'docker run --help'.
+[1m[7m%[27m[1m[0m                                                                                ]2;mahi@lx9-fuxi269:~/fullstack/osa12/part12-containers-applications]1;..-applications[0m[27m[24m[J[01;31m➜  [36mpart12-containers-applications[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker run -it ubuntu bashsdocker run -it ubuntu bash[26Dsudocker run -it ubuntu bash[26D[1Cdocker run -it ubuntu bash[26Dodocker run -it ubuntu bash[26D docker run -it ubuntu bash[26D[?1l>[?2004l
+]2;sudo docker run -it ubuntu bash]1;docker[sudo] password for mahi: 
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Kcf92e523b49e: Pulling fs layer [1B[1A[2Kcf92e523b49e: Downloading  310.6kB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  1.556MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading   2.49MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading   3.73MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  4.975MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  6.232MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  7.482MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  8.727MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  9.657MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading   10.6MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  11.84MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  12.78MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  14.02MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  15.26MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  16.51MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  17.75MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading     19MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  19.93MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  21.17MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  22.73MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  23.66MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  24.91MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  26.16MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  27.41MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  28.34MB/30.43MB[1B[1A[2Kcf92e523b49e: Downloading  29.27MB/30.43MB[1B[1A[2Kcf92e523b49e: Verifying Checksum [1B[1A[2Kcf92e523b49e: Download complete [1B[1A[2Kcf92e523b49e: Extracting  327.7kB/30.43MB[1B[1A[2Kcf92e523b49e: Extracting  8.192MB/30.43MB[1B[1A[2Kcf92e523b49e: Extracting  14.09MB/30.43MB[1B[1A[2Kcf92e523b49e: Extracting  23.27MB/30.43MB[1B[1A[2Kcf92e523b49e: Extracting  27.53MB/30.43MB[1B[1A[2Kcf92e523b49e: Extracting  30.43MB/30.43MB[1B[1A[2Kcf92e523b49e: Pull complete [1BDigest: sha256:e00bd9ad7f936c975dd7c15c71d216f6456aabc39118df7eaa6919d7ddfdb3b0
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@cdf0df99aaaf: /root@cdf0df99aaaf:/# [K]0;root@cdf0df99aaaf: /root@cdf0df99aaaf:/# mkdie r 
+.dockerenv  etc/        lib64/      opt/        sbin/       usr/
+bin/        home/       libx32/     proc/       srv/        var/
+boot/       lib/        media/      root/       sys/        
+dev/        lib32/      mnt/        run/        tmp/        
+]0;root@cdf0df99aaaf: /root@cdf0df99aaaf:/# mkdir usr/src/app
+[?2004l[?2004h]0;root@cdf0df99aaaf: /root@cdf0df99aaaf:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@cdf0df99aaaf: /root@cdf0df99aaaf:/# cd usr/s
+sbin/  share/ src/   
+]0;root@cdf0df99aaaf: /root@cdf0df99aaaf:/# cd usr/src/app/    
+[?2004l[?2004h]0;root@cdf0df99aaaf: /usr/srcroot@cdf0df99aaaf:/usr/src# ls
+[?2004l[0m[01;34mapp[0m
+[?2004h]0;root@cdf0df99aaaf: /usr/srcroot@cdf0df99aaaf:/usr/src# cd app/
+[?2004l[?2004h]0;root@cdf0df99aaaf: /usr/src/approot@cdf0df99aaaf:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@cdf0df99aaaf: /usr/src/approot@cdf0df99aaaf:/usr/src/app# n ls
+[?2004lindex.js
+[?2004h]0;root@cdf0df99aaaf: /usr/src/approot@cdf0df99aaaf:/usr/src/app# ei xit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                ]2;mahi@lx9-fuxi269:~/fullstack/osa12/part12-containers-applications]1;..-applications[0m[27m[24m[J[01;32m➜  [36mpart12-containers-applications[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-10-05 13:57:20+03:00 [COMMAND_EXIT_CODE="0"]
